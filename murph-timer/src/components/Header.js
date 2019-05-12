@@ -22,7 +22,8 @@ const wrapperStyle = {
     position: 'relative',
     width: "100%",
     height: "200px",
-    textAlign: 'center'
+    textAlign: 'center',
+    margin: "0"
 }
 
 const imgstyle = {

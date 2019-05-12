@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
+import Timer from './Timer'
 
 export default class SelectNum extends Component {
 
-  state = {
-    Value: 0,
-  }
+  
+  
 
     createOptions = () => {
         let options = []
@@ -27,18 +27,34 @@ export default class SelectNum extends Component {
     let options = this.createOptions();
 
     const listItems = options.map(option => <option key={option} value={option}>{option}</option> );
+    let timer = "";
+
+    if (this.props.timer == true){
+       timer = <Timer name={this.props.name} seconds={this.props.seconds}></Timer>
+    }
+  
 
     return (
-      <div style={wrapperstyle}>
+      <div className="col-sd-4" style={wrapperstyle}>
         <p>Enter {this.props.name}</p>
-        <select onChange = {this.handleSelect}  name={this.props.name}>
+        <select onChange = {this.props.handleSelect}  name={this.props.name}>
         {listItems}
         </select>
+        <br></br>
+        <br></br>
+        <p>Sets: {this.props.sets}</p>
+        {timer}
       </div>
     )
   }
 }
 
 const wrapperstyle = {
-  marginRight: "5%"
+  marginRight: "5%",
+  background: "#eee",
+  fontFamily: "'Khand', sans-serif",
+  color: '#333',
+  margin: "1%",
+  padding: "1%"
 }
+
