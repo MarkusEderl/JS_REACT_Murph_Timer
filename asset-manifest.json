@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Murph_Timer/static/css/main.c1106aa2.chunk.css",
-    "main.js": "/Murph_Timer/static/js/main.95121c2f.chunk.js",
-    "main.js.map": "/Murph_Timer/static/js/main.95121c2f.chunk.js.map",
-    "runtime~main.js": "/Murph_Timer/static/js/runtime~main.f5e7d7c3.js",
-    "runtime~main.js.map": "/Murph_Timer/static/js/runtime~main.f5e7d7c3.js.map",
-    "static/js/2.c1275e5b.chunk.js": "/Murph_Timer/static/js/2.c1275e5b.chunk.js",
-    "static/js/2.c1275e5b.chunk.js.map": "/Murph_Timer/static/js/2.c1275e5b.chunk.js.map",
-    "index.html": "/Murph_Timer/index.html",
-    "precache-manifest.b861bb860250859209dc207ed4f720fe.js": "/Murph_Timer/precache-manifest.b861bb860250859209dc207ed4f720fe.js",
-    "service-worker.js": "/Murph_Timer/service-worker.js",
-    "static/css/main.c1106aa2.chunk.css.map": "/Murph_Timer/static/css/main.c1106aa2.chunk.css.map"
+    "main.css": "/JS_REACT_Murph_Timer/static/css/main.c1106aa2.chunk.css",
+    "main.js": "/JS_REACT_Murph_Timer/static/js/main.c5577667.chunk.js",
+    "main.js.map": "/JS_REACT_Murph_Timer/static/js/main.c5577667.chunk.js.map",
+    "runtime~main.js": "/JS_REACT_Murph_Timer/static/js/runtime~main.2aa3d586.js",
+    "runtime~main.js.map": "/JS_REACT_Murph_Timer/static/js/runtime~main.2aa3d586.js.map",
+    "static/js/2.c1275e5b.chunk.js": "/JS_REACT_Murph_Timer/static/js/2.c1275e5b.chunk.js",
+    "static/js/2.c1275e5b.chunk.js.map": "/JS_REACT_Murph_Timer/static/js/2.c1275e5b.chunk.js.map",
+    "index.html": "/JS_REACT_Murph_Timer/index.html",
+    "precache-manifest.22b6552ce312692024ac39c71808b29a.js": "/JS_REACT_Murph_Timer/precache-manifest.22b6552ce312692024ac39c71808b29a.js",
+    "service-worker.js": "/JS_REACT_Murph_Timer/service-worker.js",
+    "static/css/main.c1106aa2.chunk.css.map": "/JS_REACT_Murph_Timer/static/css/main.c1106aa2.chunk.css.map"
   }
 }
